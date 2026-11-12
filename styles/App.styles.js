@@ -1,0 +1,37 @@
+import { StyleSheet } from "react-native";
+export default StyleSheet.create({
+  safe: { flex: 1, backgroundColor: "#fff" },
+  top: {
+    height: 56,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: "#f0f2f6",
+  },
+  topBtn: { width: 36, fontSize: 22, color: "#172d4d" },
+  title: { fontSize: 16, fontWeight: "800", color: "#17243a" },
+  body: { flex: 1, backgroundColor: "#f4f7fb" },
+  tabs: {
+    height: 62,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+    borderTopWidth: 1,
+    borderTopColor: "#e8edf3",
+    backgroundColor: "#fff",
+  },
+  tab: { fontSize: 14, fontWeight: "700", color: "#9aa4b3" },
+  tabOn: { color: "#3269e8" },
+  toast: {
+    position: "absolute",
+    bottom: 12,
+    left: 18,
+    right: 18,
+    backgroundColor: "#172d4d",
+    padding: 12,
+    borderRadius: 12,
+  },
+  toastText: { color: "#fff", fontSize: 12 },
+});
